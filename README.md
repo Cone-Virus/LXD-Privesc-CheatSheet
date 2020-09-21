@@ -16,7 +16,9 @@ sudo ./build-alpine -a i686
                                                                                                                                                                                                                                            
 lxc image import alpine-v3.12-i868-20200831_1748.tar.gz --alias temper                                                                                                                                                                     
                                                                                                                                                                                                                                            
--Next we setup the LXD image on local with escalated priv                                                                                                                                                                                  
+-Next we setup the LXD image on local with escalated priv 
+-"temper" is the alias of the image
+-"hereiam" is the alias of the user you are creating on the image
                                                                                                                                                                                                                                            
 lxc init temper hereiam -c security.privileged=true                                                                                                                                                                                        
                                                                                                                                                                                                                                            
