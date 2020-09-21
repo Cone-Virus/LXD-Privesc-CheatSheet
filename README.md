@@ -4,7 +4,7 @@
 
 git clone https://github.com/saghul/lxd-alpine-builder.git
                                                                                                                                                                                                                                            
--first you wanna build the LXD image                                                                                                                                                                                                       
+-first you wanna build the LXD image locally                                                                                                                                                                                                    
                                                                                                                                                                                                                                            
 sudo ./build-alpine -a i686                                                                                                                                                                                                                
                                                                                                                                                                                                                                            
