@@ -16,6 +16,10 @@ sudo ./build-alpine -a i686
                                                                                                                                                                                                                                            
 lxc image import alpine-v3.12-i868-20200831_1748.tar.gz --alias temper                                                                                                                                                                     
                                                                                                                                                                                                                                            
+-If needed setup a pool                                                                                                                                                                                                                    
+lxc storage create pool dir                                                                                                                                                                                                                
+lxc profile device add default root disk path=/ pool=pool 
+
 -Next we setup the LXD image on local with escalated priv 
 -"temper" is the alias of the image
 -"hereiam" is the alias of the escalated container
