@@ -6,7 +6,9 @@ git clone https://github.com/saghul/lxd-alpine-builder.git
                                                                                                                                                                                                                                            
 -first you wanna build the LXD image locally                                                                                                                                                                                                    
                                                                                                                                                                                                                                            
-sudo ./build-alpine -a i686                                                                                                                                                                                                                
+sudo ./build-alpine -a i686    
+or
+use the one provided given it might be out of date by the time you use it
                                                                                                                                                                                                                                            
 -After that is done it will make a gunzip and send that over to the target                                                                                                                                                                 
 -Next we will run a slew of commands since we are already in the LXD group                                                                                                                                                                 
